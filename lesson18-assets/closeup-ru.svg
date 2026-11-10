@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="390" viewBox="0 0 660 390" role="img" aria-label="Һә: нижняя часть горла">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#b8893c"/></marker></defs>
+<rect width="660" height="390" rx="24" fill="#fffaf0"/><text x="330" y="45" text-anchor="middle" fill="#164b43" font-family="Arial" font-size="27" font-weight="700">Һә: нижняя часть горла</text>
+<path d="M174 98C262 102 280 145 330 164C380 145 398 102 486 98C480 151 441 189 381 197C357 200 342 191 330 185C318 191 303 200 279 197C219 189 180 151 174 98Z" fill="#ca7970" stroke="#8b4745" stroke-width="3"/>
+<path d="M174 292C262 288 280 245 330 226C380 245 398 288 486 292C480 239 441 201 381 193C357 190 342 199 330 205C318 199 303 190 279 193C219 201 180 239 174 292Z" fill="#ca7970" stroke="#8b4745" stroke-width="3"/>
+<path d="M330 329V225" stroke="#b8893c" stroke-width="8" stroke-linecap="round" marker-end="url(#a)"/><path d="M112 120 211 158" stroke="#327e70" stroke-width="3"/><circle cx="211" cy="158" r="5" fill="#327e70"/><path d="M546 267 388 210" stroke="#327e70" stroke-width="3"/><circle cx="388" cy="210" r="5" fill="#327e70"/>
+<text x="26" y="112" fill="#174b42" font-family="Arial" font-size="19" font-weight="700">Голосовые связки разомкнуты</text><text x="430" y="286" fill="#174b42" font-family="Arial" font-size="18" font-weight="700">Воздух проходит<tspan x="430" dy="23">свободно</tspan></text></svg>
