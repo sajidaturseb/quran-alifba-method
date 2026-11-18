@@ -26,8 +26,13 @@
 
   <main id="main">
     <div class="section-nav-wrap">
-      <div class="section-nav-title"><span id="nav-title">В этом уроке</span><span class="scroll-hint" aria-hidden="true">→</span></div>
+      <div class="section-nav-title"><span id="nav-title">В этом уроке</span></div>
       <nav id="section-nav" class="section-nav" aria-label="Разделы урока"></nav>
+      <div class="section-nav-controls" aria-label="Перелистывание разделов">
+        <button type="button" id="nav-prev" aria-label="Предыдущий раздел" disabled>←</button>
+        <span id="nav-progress" aria-live="polite">01 / 03</span>
+        <button type="button" id="nav-next" aria-label="Следующий раздел"><span id="nav-next-label">Дальше</span> →</button>
+      </div>
     </div>
     <div id="lesson-content"></div>
   </main>
