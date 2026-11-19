@@ -1,0 +1,34 @@
+.chapter:nth-child(7) .chapter-head{background:linear-gradient(135deg,#e9ecf2,#f8edda 85%)}
+.chapter:nth-child(8) .chapter-head{background:linear-gradient(135deg,#e2eee8,#f7e7d4 85%)}
+.idgham-groups{display:grid;gap:15px;margin:22px 0}
+.idgham-group{padding:21px;border-radius:18px;border:1px solid #d6ddd4;background:#e9f2ed}
+.idgham-group:nth-child(2){background:#fff4dc}.idgham-group:nth-child(3){background:#eee9f3}
+.idgham-group__number{font-size:15px;font-weight:800;letter-spacing:.13em;color:#7b633b}
+.idgham-group h4{font-family:var(--serif);font-size:26px;line-height:1.2;margin:9px 0}
+.idgham-group .term{font-size:33px;line-height:1.5;margin:0}
+.idgham-group p{font-size:18px;line-height:1.45;margin:8px 0 0}
+.group-term{font-size:19px;font-weight:700;line-height:1.5;margin:13px 0;color:#174b50}
+.arabic-inline{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:1.35em;font-weight:500;white-space:normal;unicode-bidi:isolate}
+.letter-pair{display:grid;gap:15px;margin:20px 0}
+.letter-feature{border:1px solid #d8ddd6;background:#fffefa;border-radius:18px;padding:20px}
+.letter-feature:nth-child(even){background:#e9f2ed}
+.letter-feature h4{font-family:var(--serif);font-size:26px;line-height:1.2;margin:0 0 10px;display:flex;align-items:center;gap:10px}
+.letter-feature h4 span{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:39px;color:#0c5d66}
+.letter-feature p{font-size:19px;line-height:1.5;margin:8px 0}
+.letter-feature .term{font-size:32px;margin:10px 0 2px}
+.letter-feature .example-arabic{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:34px;line-height:1.5;text-align:right;color:#0b5660;direction:rtl;margin:14px 0 2px}
+.letter-feature small{display:block;font-size:16px;color:#675f50;line-height:1.4}
+.idgham-steps{display:grid;gap:10px;margin:20px 0}
+.idgham-step{padding:17px 20px;border-left:5px solid #ad874d;background:#fffefa;border-radius:12px;font-size:19px;line-height:1.5}
+.idgham-step strong{display:block;font-family:var(--serif);font-size:23px}
+.word-exceptions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:19px 0}
+.word-exceptions span{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:32px;line-height:1.5;text-align:center;background:#fffefa;border:1px solid #d9dfd7;border-radius:13px;padding:8px 4px}
+.advanced-note{background:#edeaf2;border-left:5px solid #9f88b4;border-radius:15px;padding:20px 22px;margin:20px 0}
+.advanced-note h3{margin:0 0 10px;font-family:var(--serif);font-size:25px}
+.advanced-note p{margin:8px 0;font-size:18px;line-height:1.5}
+.advanced-note .term{font-size:32px;margin:4px 0}
+.lesson05-practice{display:grid;gap:13px;margin:20px 0}
+.lesson05-practice .practice-card{padding:18px 20px}
+.lesson05-practice .practice-row{grid-template-columns:90px minmax(0,1fr)}
+.lesson05-practice .practice-card h4{font-size:23px}
+@media(min-width:700px){.idgham-groups{grid-template-columns:repeat(3,minmax(0,1fr))}.letter-pair,.lesson05-practice{grid-template-columns:repeat(2,minmax(0,1fr))}}

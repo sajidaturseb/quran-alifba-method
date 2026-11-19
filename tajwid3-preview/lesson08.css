@@ -1,0 +1,21 @@
+.chapter:nth-child(7) .chapter-head{background:linear-gradient(135deg,#e6efe8,#f7e9d7 85%)}
+.chapter:nth-child(8) .chapter-head{background:linear-gradient(135deg,#efeaf1,#e8f0e8 85%)}
+.mim-ar{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:1.38em;font-weight:500;unicode-bidi:isolate}
+.mim-ar{white-space:nowrap}
+.mim-rule-grid{display:grid;gap:15px;margin:20px 0}
+.mim-rule-grid .lesson-card{min-width:0}
+.mim-rule-grid .lesson-card h4{font-size:clamp(24px,4.5vw,30px)}
+.mim-rule-term{font-size:clamp(25px,5vw,32px)!important;line-height:1.55!important;color:#0c5660}
+.mim-letters{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(36px,7.5vw,47px)!important;line-height:1.5!important;text-align:center;color:#0b5660}
+.mim-term-heading{margin:0 0 20px;padding:15px 20px;border-radius:14px;background:#e8f1ed;color:#0b4d58;font-family:var(--serif);font-weight:700;font-size:clamp(24px,4.6vw,31px);line-height:1.5}
+.mim-term-heading .mim-ar{font-size:1.3em}
+.mim-steps{display:grid;gap:12px;margin:20px 0}
+.mim-steps>div{display:grid;grid-template-columns:44px minmax(0,1fr);gap:13px;align-items:start;padding:18px;border-radius:16px;border:1px solid #d8dfd6;background:#fffefa}
+.mim-steps>div:nth-child(even){background:#e9f2ed}
+.mim-steps b{display:grid;place-items:center;width:43px;height:43px;border-radius:50%;background:#0b5660;color:white;font-size:16px}
+.mim-steps p{font-size:19px;line-height:1.5;margin:0}
+.mim-examples{display:grid;gap:14px;margin:22px 0}
+.mim-examples .practice-card h4{font-family:var(--sans);font-size:19px;line-height:1.35;margin:0}
+.mim-examples .practice-card p{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(39px,8vw,50px);line-height:1.55;text-align:right;color:#0b5660;margin:11px 0 0;overflow-wrap:anywhere}
+.chapter-content>.note,.chapter-content>.lesson-pair{margin:20px 0}
+@media(min-width:700px){.mim-rule-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.mim-steps,.mim-examples{grid-template-columns:repeat(2,minmax(0,1fr))}}
