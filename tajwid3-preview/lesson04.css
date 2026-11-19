@@ -1,0 +1,39 @@
+.chapter:nth-child(5) .chapter-head{background:linear-gradient(135deg,#e7eee9,#f7ead1 88%)}
+.chapter:nth-child(6) .chapter-head{background:linear-gradient(135deg,#eee9f2,#e4eee8 88%)}
+.lesson-pair .lesson-card{min-width:0}
+.rule-strip{display:grid;gap:10px;margin:23px 0}
+.rule-strip__item{padding:16px 17px;border-radius:14px;border-left:5px solid #ba9253;background:#fffefa;font-size:19px;line-height:1.36}
+.rule-strip__item strong{font-family:var(--serif);font-size:23px;display:block}
+.rule-strip__item.current{background:#e8f1ed;border-left-color:#0b6970}
+.throat-map{display:grid;gap:12px;margin:21px 0}
+.throat-zone{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:17px 20px;border:1px solid #d6ded7;border-radius:16px;background:#fffefa}
+.throat-zone:nth-child(2){background:#e9f2ed}.throat-zone:nth-child(3){background:#fff4db}
+.throat-zone h4{font-family:var(--serif);font-size:24px;line-height:1.2;margin:0 0 4px}
+.throat-zone p{font-size:17px;line-height:1.4;margin:0}
+.throat-zone .term{white-space:nowrap;text-align:center;font-size:36px;line-height:1.3;margin:0}
+.sound-path{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:20px 0;padding:17px;background:#e8f1ed;border-radius:16px}
+.sound-path span{padding:9px 12px;background:#fffefa;border-radius:11px;font-size:18px;font-weight:700}
+.sound-path b{font-size:22px;color:#9f7438}
+.mnemonic{padding:22px;border-radius:17px;background:#fff4db;border:1px solid #ead8b6}
+.mnemonic .term{text-align:center;line-height:1.7}
+.mnemonic p{margin:0}
+.example-grid{display:grid;gap:15px;margin:22px 0}
+.practice-card{padding:19px 20px;border-radius:18px;border:1px solid #d8ddd3;background:#fffefa}
+.practice-card:nth-child(3n+2){background:#eaf3ed}.practice-card:nth-child(3n+3){background:#fff4de}
+.practice-card h4{display:flex;gap:13px;align-items:baseline;margin:0 0 10px;font-family:var(--serif);font-size:25px}
+.practice-card h4 span{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:35px;color:#0b5660;line-height:1}
+.practice-row{display:grid;grid-template-columns:minmax(90px,125px) minmax(0,1fr);gap:8px;align-items:baseline;border-top:1px solid #d9dcd3;padding:9px 0}
+.practice-row span{font-size:16px;font-weight:700;color:#6d654f}
+.practice-row b{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-weight:500;font-size:clamp(27px,5.8vw,34px);line-height:1.5;direction:rtl;text-align:right;overflow-wrap:anywhere}
+.mushaf-signs{display:grid;gap:12px;margin:18px 0}
+.mushaf-sign{display:grid;grid-template-columns:70px 1fr;gap:13px;align-items:center;padding:18px;background:#fffefa;border:1px solid #d7ddd5;border-radius:16px}
+.mushaf-sign>span{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:39px;line-height:1.1;text-align:center;color:#0b5660}
+.mushaf-sign p{margin:0;font-size:18px;line-height:1.43}
+.quiz{display:grid;gap:11px;margin:18px 0}
+.quiz details{border:1px solid #d6ded7;border-radius:14px;background:#fffefa;padding:13px 17px}
+.quiz summary{cursor:pointer;font-family:var(--serif);font-weight:700;font-size:22px;line-height:1.3}
+.quiz details p{margin:11px 0 0;font-size:18px}
+.mnemonic p .term,.mushaf-sign p .term,.quiz p .term{display:inline;font-size:1.25em;line-height:1.2;margin:0;vertical-align:baseline}
+.sound-path .term{display:inline;font-size:1.3em;line-height:1.2;margin:0}
+.sound-path span .term{white-space:nowrap}
+@media(min-width:700px){.rule-strip{grid-template-columns:repeat(4,minmax(0,1fr))}.example-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}

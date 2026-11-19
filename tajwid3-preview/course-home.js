@@ -6,7 +6,8 @@ const course = {
     lessons:[
       ['01','Путь Корана','Духовные основы, достоинства и этикет чтения.','lesson01.html'],
       ['02','Наука таджвид','Права букв, передача чтения, ошибки и темпы.','lesson02.html'],
-      ['03','Истигаза и басмала','Смысл, этикет и способы соединения.','lesson03.html']
+      ['03','Истигаза и басмала','Смысл, этикет и способы соединения.','lesson03.html'],
+      ['04','Нун с сукуном и изхар','Нун, танвин и шесть горловых букв.','lesson04.html']
     ]
   },
   tt: {
@@ -16,7 +17,8 @@ const course = {
     lessons:[
       ['01','Коръән юлы','Рухи нигезләр, фазыйләтләр һәм уку әдәбе.','lesson01.html'],
       ['02','Тәҗвид фәне','Хәреф хаклары, укуны тапшыру, хаталар һәм темплар.','lesson02.html'],
-      ['03','Истигазә һәм Басмала','Мәгънәсе, әдәбе һәм кушып уку юллары.','lesson03.html']
+      ['03','Истигазә һәм Басмала','Мәгънәсе, әдәбе һәм кушып уку юллары.','lesson03.html'],
+      ['04','Сәкенле нун һәм изһар','Нун, тәнвин һәм алты тамак хәрефе.','lesson04.html']
     ]
   }
 };
@@ -26,6 +28,7 @@ function renderCourse(lang) {
   document.title=`Тәҗвид 3 · ${data.title}`;
   for(const [id,text] of [['course-kicker',data.kicker],['course-title',data.title],['course-subtitle',data.subtitle],['course-list-kicker',data.listKicker],['course-list-title',data.listTitle],['course-list-description',data.listDescription],['course-footer',data.footer],['top-link',data.top]]) document.getElementById(id).textContent=text;
   document.getElementById('course-list').innerHTML=data.lessons.map(([number,title,description,url],i)=>`<a class="course-card course-card--${i%3}" href="${url}"><span class="course-card__number">${number}</span><h3>${title}</h3><p>${description}</p><strong>${data.open} <span aria-hidden="true">→</span></strong></a>`).join('');
+  document.getElementById('course-list').setAttribute('aria-label',lang==='tt'?'Курс дәресләре':'Уроки курса');
   for(const code of ['ru','tt']) {
     const button=document.getElementById(`${code}-button`);
     button.classList.toggle('active',code===lang);

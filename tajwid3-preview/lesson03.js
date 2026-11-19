@@ -75,6 +75,7 @@ function render(lang) {
   document.getElementById('nav-next').setAttribute('aria-label', data.next);
   document.getElementById('footer-text').textContent = data.foot;
   document.getElementById('previous-link').textContent = data.previous;
+  document.getElementById('following-link').textContent = lang === 'tt' ? 'Дүртенче дәрес →' : 'Четвёртый урок →';
   document.getElementById('top-link').textContent = data.top;
   document.getElementById('section-nav').innerHTML = data.chapters.map((chapter, index) => `<a href="#part-${index + 1}"><small>${String(index + 1).padStart(2, '0')}</small><strong>${chapter.nav}</strong></a>`).join('');
   document.getElementById('lesson-content').innerHTML = data.chapters.map((chapter, index) => `<section class="chapter" id="part-${index + 1}"><div class="chapter__inner"><div class="chapter-head"><div class="chapter-kicker">${chapter.kicker}</div><h2>${chapter.title}</h2><p>${chapter.description}</p><div class="chapter-art">${art[chapter.art]}</div></div><div class="chapter-content"><p class="lead">${chapter.lead}</p>${chapter.body}</div></div></section>`).join('');
