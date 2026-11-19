@@ -1,0 +1,20 @@
+.chapter:nth-child(5) .chapter-head{background:linear-gradient(135deg,#e5eee9,#f8e8ce 88%)}
+.chapter:nth-child(5) .chapter-art{color:#936e3a}
+.formula{padding:20px 22px;margin:15px 0 20px;background:#e9f2ed;border:1px solid #ccddd3;border-radius:18px}
+.formula--soft{background:#fff8e8;border-color:#ebddc0}
+.formula .term{text-align:center;line-height:1.7;overflow-wrap:anywhere}
+.formula .term+.term{border-top:1px solid #dacba9;margin-top:12px;padding-top:12px}
+.formula p{font-size:19px;line-height:1.5;margin:0}
+.reference-pills{display:flex;flex-wrap:wrap;gap:9px;margin:16px 0}
+.reference-pills span{padding:8px 13px;background:#e7f0ec;border:1px solid #ccddd5;border-radius:100px;color:#0b5660;font-size:16px;font-weight:800}
+.join-chain{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:20px 0;padding:17px;border-radius:17px;background:#e9f2ed}
+.join-chain__part{padding:8px 11px;border-radius:10px;background:#fffefa;font-size:17px;font-weight:750}
+.join-chain__arrow{font-size:23px;color:#a77b38}
+.small-source{font-size:16px;color:#6b675f}
+.join-key{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 20px}
+.join-key span{padding:8px 12px;border:1px solid #d7ded5;background:#fffefa;border-radius:10px;font-size:16px;font-weight:700}
+.join-options{display:grid;gap:14px}
+.join-options .lesson-card{min-width:0}
+.join-pattern{display:block;margin:15px 0;padding:12px 14px;border-radius:12px;background:#0b4f5a;color:#fffdf4;font-size:clamp(20px,5vw,26px);font-weight:800;line-height:1.4;text-align:center;overflow-wrap:anywhere}
+.note.violet .join-pattern{background:#654f76}
+@media(min-width:700px){.join-options{grid-template-columns:repeat(2,minmax(0,1fr))}}
