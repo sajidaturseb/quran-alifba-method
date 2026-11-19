@@ -16,3 +16,6 @@
 .chapter__inner{padding-top:38px}
 .letter-row{gap:8px;padding:12px 8px;font-size:clamp(26px,8vw,38px)}
 @media(min-width:700px){.section-nav{overflow:visible}.section-nav a{flex:1}.section-nav-controls{display:none}}
+
+.course-return{display:inline-flex;align-items:center;gap:9px;min-height:48px;padding:8px 16px;margin:-10px 0 23px;border:1px solid #d9c28f;border-radius:12px;background:#fff8e8;color:#164a4e;text-decoration:none;font-size:18px;font-weight:800}
+.course-return:hover,.course-return:focus-visible{background:#f2dfb1;outline:2px solid #fff8e8;outline-offset:2px}

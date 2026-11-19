@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#063c48">
-  <meta name="description" content="Тәҗвид 3. Первый урок: Путь Корана. Материал на русском и татарском языках.">
-  <title>Тәҗвид 3 · Путь Корана</title>
+  <meta name="description" content="Тәҗвид 3 — углублённый курс. Все готовые уроки на русском и татарском языках.">
+  <title>Тәҗвид 3 · Уроки курса</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="course-home.css">
 </head>
 <body>
   <header class="masthead" id="top">
@@ -16,32 +17,26 @@
         <button type="button" id="ru-button" class="active" aria-pressed="true">Русский</button>
         <button type="button" id="tt-button" aria-pressed="false">Татарча</button>
       </div>
-      <div class="lesson-heading">
-        <div class="eyebrow" id="lesson-kicker">УРОК 01 · ВСТУПЛЕНИЕ</div>
-        <h1 id="lesson-title">Путь Корана</h1>
-        <p id="lesson-subtitle">Духовные основы, достоинства и этикет чтения</p>
+      <div class="lesson-heading course-heading">
+        <div class="eyebrow" id="course-kicker">УГЛУБЛЁННЫЙ КУРС</div>
+        <h1 id="course-title">Уроки таджвида</h1>
+        <p id="course-subtitle">Выберите тему. Все готовые уроки собраны здесь по порядку.</p>
       </div>
     </div>
   </header>
-
-  <main id="main">
-    <div class="section-nav-wrap">
-      <div class="section-nav-title"><span id="nav-title">В этом уроке</span></div>
-      <nav id="section-nav" class="section-nav" aria-label="Разделы урока"></nav>
-      <div class="section-nav-controls" aria-label="Перелистывание разделов">
-        <button type="button" id="nav-prev" aria-label="Предыдущий раздел" disabled>←</button>
-        <span id="nav-progress" aria-live="polite">01 / 03</span>
-        <button type="button" id="nav-next" aria-label="Следующий раздел"><span id="nav-next-label">Дальше</span> →</button>
-      </div>
+  <main class="course-main">
+    <div class="course-intro">
+      <div class="chapter-kicker" id="course-list-kicker">НАЧНИТЕ С ПЕРВОГО УРОКА</div>
+      <h2 id="course-list-title">Содержание курса</h2>
+      <p id="course-list-description">Откройте карточку урока, чтобы перейти к его материалу.</p>
     </div>
-    <div id="lesson-content"></div>
+    <nav class="course-list" id="course-list" aria-label="Уроки курса"></nav>
   </main>
-
   <footer class="footer">
     <div class="footer__ornament" aria-hidden="true">✦</div>
-    <p id="footer-text">Конец первого урока</p>
-    <a href="#top" id="top-link">Вернуться к началу ↑</a>
+    <p id="course-footer">Новые уроки будут появляться здесь по мере подготовки.</p>
+    <a href="#top" id="top-link">К началу ↑</a>
   </footer>
-  <script src="app.js"></script>
+  <script src="course-home.js"></script>
 </body>
 </html>

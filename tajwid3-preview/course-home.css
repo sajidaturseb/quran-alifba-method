@@ -1,0 +1,16 @@
+.course-heading{padding-bottom:17px}
+.course-heading h1{font-size:clamp(37px,7.8vw,63px)}
+.course-main{max-width:920px;margin:auto;padding:35px 20px 80px}
+.course-intro{margin:0 0 24px}
+.course-intro .chapter-kicker{color:#8a6a35}
+.course-intro h2{font-family:var(--serif);font-size:clamp(33px,6vw,49px);line-height:1.15;margin:10px 0 11px}
+.course-intro p{font-size:20px;line-height:1.48;margin:0;max-width:660px}
+.course-list{display:grid;gap:17px}
+.course-card{display:block;padding:25px 23px 24px;border:1px solid #d9d7cc;border-radius:21px;color:var(--ink);text-decoration:none;box-shadow:0 6px 19px #173d370d}
+.course-card--0{background:#f0eaf5}.course-card--1{background:#e9f3ed}.course-card--2{background:#fff2d9}
+.course-card__number{display:inline-block;color:#7b663f;font-size:17px;font-weight:800;letter-spacing:.1em}
+.course-card h3{font-family:var(--serif);font-size:clamp(29px,5.5vw,41px);line-height:1.13;margin:11px 0 12px}
+.course-card p{font-size:19px;line-height:1.48;margin:0 0 16px;color:#465e5d}
+.course-card strong{display:inline-block;color:#0d5b60;font-size:18px}
+.course-card:hover,.course-card:focus-visible{border-color:#a68952;box-shadow:0 9px 24px #173d3720;outline:2px solid #a68952;outline-offset:2px}
+@media(min-width:680px){.course-list{grid-template-columns:repeat(2,minmax(0,1fr))}.course-card{min-height:235px}}
