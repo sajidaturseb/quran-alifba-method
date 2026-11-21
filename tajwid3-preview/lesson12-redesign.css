@@ -1,0 +1,63 @@
+@font-face{font-family:UthmanicHafs;src:url('https://verses.quran.foundation/fonts/quran/hafs/uthmanic_hafs/UthmanicHafs1Ver18.woff2') format('woff2');font-display:swap}
+.course-cover{background:linear-gradient(160deg,#0b4d4c,#0a4353 78%);color:#fff;padding-bottom:42px}
+.course-image{display:block;width:100%;max-width:920px;height:auto;margin:auto}
+.cover-text{max-width:920px;margin:auto;padding:29px 22px 0}
+.lesson12-language{display:flex;gap:11px;margin:0 0 31px}
+.lesson12-language a{flex:1;display:grid;place-items:center;min-height:54px;padding:9px 12px;border:1px solid #dcc999;border-radius:14px;color:#fffaf0;text-decoration:none;font-size:clamp(18px,4.3vw,22px);font-weight:800}
+.lesson12-language a[aria-current=page]{background:#f1dfa9;color:#143e40;border-color:#f1dfa9;box-shadow:inset 0 0 0 2px #fff9e8}
+.bismillah{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(29px,6vw,40px);line-height:1.6;color:#f5deaa;text-align:center}
+.cover-text h1{font-family:var(--serif);font-size:clamp(38px,8vw,68px);line-height:1.08;margin:11px 0 17px;text-align:center;text-wrap:balance}
+.reading-path{font-size:clamp(19px,4.4vw,24px);color:#f2e7d5;text-align:center;margin:0 0 25px}
+.cover-rules{display:grid;gap:11px}
+.cover-rule{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:13px 19px;border:1px solid #b9d3c8;border-radius:15px;background:#fff9e9;color:#164743}
+.cover-rule span{font-family:var(--serif);font-size:clamp(22px,5vw,29px);font-weight:700;line-height:1.2}
+.cover-rule b{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(30px,6vw,40px);line-height:1.45;white-space:nowrap;color:#95682b}
+.lesson12-nav{max-width:920px;margin:0 auto;padding:24px 18px 8px;display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.lesson12-nav::-webkit-scrollbar{display:none}
+.lesson12-nav a{display:grid;place-items:center;flex:0 0 100%;scroll-snap-align:start;min-height:68px;padding:12px 16px;text-align:center;text-decoration:none;font-weight:800;font-size:clamp(19px,4.2vw,23px);line-height:1.2;color:#14464a;border:1px solid #d6dccc;border-radius:13px;background:#fffdf8}
+.lesson12-nav a:nth-child(2),.lesson12-nav a:nth-child(4){background:#e8f2eb}.lesson12-nav a:nth-child(3){background:#fff4dd}
+.lesson12-nav-controls{max-width:920px;margin:0 auto 24px;padding:0 18px;display:flex;align-items:center;justify-content:space-between;color:#72582f;font-weight:800;font-size:18px}
+.lesson12-nav-controls button{width:54px;height:46px;border:1px solid #bcae89;border-radius:12px;background:#fff9e9;color:#0b5754;font-size:27px;cursor:pointer}
+.lesson12-nav-controls button:disabled{opacity:.35;cursor:default}
+.lesson12-main{max-width:920px;margin:auto;padding:0 18px 75px}
+.lesson-section{padding:12px 0 60px;scroll-margin-top:15px}
+.section-heading{display:flex;align-items:center;gap:16px;padding:17px 0 16px;border-top:3px solid #0f655b;margin-bottom:14px}
+.section-heading span{display:grid;place-items:center;flex:none;width:46px;height:46px;border-radius:50%;font-size:19px;font-weight:800;background:#0c5b55;color:#fff}
+.section-heading h2{font-family:var(--serif);font-size:clamp(31px,6vw,46px);line-height:1.12;margin:0;color:#143e40}
+.overview-rows{display:grid;gap:13px}.overview-row{display:grid;grid-template-columns:53px 1fr;gap:3px 16px;align-items:center;padding:19px;border:1px solid #cbdccf;border-radius:18px;background:#eaf4ec}
+.overview-row:nth-child(2){background:#fff4df;border-color:#e7d6b1}.overview-row:nth-child(3){background:#efedf5;border-color:#ddd6e9}
+.overview-number{grid-row:span 2;display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:#0c5954;color:#fff;font-size:23px;font-weight:800}.overview-number .text-block{margin:0}
+.overview-row h3{font-family:var(--serif);font-size:clamp(24px,5vw,31px);line-height:1.15;margin:0}.overview-row h3 .text-block{margin:0}.overview-row p{grid-column:2;font-size:clamp(19px,4.1vw,23px);line-height:1.4;margin:0}.overview-row p .text-block{margin:0}
+.subpart{margin:25px 0 34px;scroll-margin-top:16px}.part-title{font-family:var(--serif);font-size:clamp(27px,5.5vw,36px);line-height:1.22;margin:0 0 15px;color:#16464b}.part-title .text-block{margin:0}
+.reading-panel{border:1px solid #c7dcd2;border-left:6px solid #498e75;border-radius:0 18px 18px 0;background:#eef6f0;padding:18px 21px;margin:14px 0}
+.reading-panel--warm{background:#fff3df;border-color:#e9d5a9;border-left-color:#be944f}
+.reading-panel .text-block{font-size:clamp(20px,4.4vw,24px);line-height:1.5;margin:8px 0 18px;overflow-wrap:normal;word-break:normal}
+.reading-panel .text-block:last-child{margin-bottom:7px}.reading-panel .text-block:first-child{margin-top:5px}
+.reading-panel .text-block--ar{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(36px,7vw,51px);line-height:1.7;text-align:center;color:#0a5455;white-space:normal;unicode-bidi:isolate}
+.example-group{display:grid;gap:13px;margin:15px 0}.example-word{display:grid;place-items:center;padding:14px 18px;min-height:110px;border:1px solid #c7d9d0;border-radius:17px;background:#fffdf8;min-width:0}
+.example-word .text-block{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(38px,8vw,60px);line-height:1.6;direction:rtl;text-align:center;margin:0;color:#0c5860;white-space:normal;overflow-wrap:normal;word-break:normal;unicode-bidi:isolate}
+.compare-grid{display:grid;gap:14px;margin:16px 0}.compare-panel{padding:18px 20px;background:#eef5ef;border:1px solid #c5d9ca;border-radius:18px;min-width:0}.compare-panel:nth-child(2){background:#fff4dd;border-color:#ead8b0}.compare-panel .text-block{font-size:clamp(20px,4.5vw,24px);line-height:1.45;margin:7px 0 17px}.compare-panel .text-block:first-child{font-family:var(--serif);font-size:clamp(25px,5vw,31px);font-weight:700;color:#154b46}.compare-panel .text-block:last-child{margin-bottom:4px}.compare-panel .text-block--ar{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(36px,7vw,49px);line-height:1.65;text-align:center;direction:rtl;word-break:normal;overflow-wrap:normal}
+.mobile-matrix{display:grid;gap:12px;margin:16px 0}.matrix-row{border:1px solid #d2ded2;border-radius:17px;padding:16px 18px;background:#f1f7f0}.matrix-row:nth-child(even){background:#fff4de;border-color:#ead9b8}.matrix-cell{display:grid;grid-template-columns:minmax(0,33%) minmax(0,1fr);gap:9px 14px;border-bottom:1px solid #d6e0d5;padding:9px 0;align-items:start}.matrix-cell:first-child{padding-top:0}.matrix-cell:last-child{padding-bottom:0;border-bottom:0}.matrix-label{font-size:clamp(16px,3.5vw,20px);font-weight:800;line-height:1.25;color:#806536}.matrix-label .text-block{margin:0}.matrix-cell>.text-block{font-size:clamp(19px,4vw,23px);line-height:1.35;margin:0}.matrix-cell>.text-block--ar{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(30px,6vw,40px);direction:rtl;line-height:1.5}
+.final-dua{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(40px,7.5vw,59px);line-height:1.7;text-align:center;background:#0c4f50;color:#fff2ce;border-radius:19px;padding:18px;margin:18px 0;word-break:normal;overflow-wrap:normal}
+.final-title{font-family:var(--serif);font-size:clamp(28px,5vw,39px);font-weight:700;text-align:center;margin-top:25px}.final-names{text-align:center;font-size:clamp(19px,4vw,24px);margin-top:5px;color:#88602b}
+.lesson12-footer{text-align:center;background:#0b4750;padding:35px}.lesson12-footer a{color:#fff4d8;font-size:20px;font-weight:800}.font-credit{margin-top:20px;color:#d2e5df;font-size:13px}.font-credit a{font-size:inherit;font-weight:400}
+.cover-rule b,.reading-panel .text-block--ar,.example-word .text-block--ar,.compare-panel .text-block--ar,.matrix-cell>.text-block--ar,.final-dua{font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic','Amiri',serif}
+@media(min-width:640px){.lesson12-nav a{flex:1 1 0}.lesson12-nav-controls{display:none}.example-group{grid-template-columns:repeat(2,minmax(0,1fr))}.compare-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.cover-rule{align-items:flex-start;flex-direction:column;gap:2px}.cover-rule b{white-space:normal}.overview-row{grid-template-columns:45px 1fr;padding:15px}.overview-number{width:43px;height:43px}.lesson12-main{padding-left:16px;padding-right:16px}.matrix-cell{grid-template-columns:1fr;gap:3px}.reading-panel{padding:16px 17px}}
+
+/* Original Arabic examples from the author's slides. A quiet frame keeps the
+   cropped white panel integrated with the lesson without shrinking the script. */
+.text-block--source-image{position:relative;display:block;width:100%;max-width:100%;min-width:0;box-sizing:border-box;margin:10px auto!important;padding:12px 15px;border:1px solid #c9b88f;border-radius:13px;background:#fff;box-shadow:inset 0 0 0 4px #f8f3e7,0 2px 7px rgba(28,61,55,.05)}
+.text-block--source-image::before,.text-block--source-image::after{content:"✥";position:absolute;top:-10px;color:#bfa879;background:#f9f7f0;padding:0 5px;font:18px/1 Georgia,serif}
+.text-block--source-image::before{left:17px}.text-block--source-image::after{right:17px}
+.source-example-image{display:block;width:88%;max-width:520px;height:auto;object-fit:contain;margin:auto}
+.source-example-image--symbol{width:auto;max-width:100%}
+.example-word:has(.source-example-image){min-height:0;padding:5px 7px;background:#faf8f1;border-color:#e1d9c4}
+.compare-panel .text-block--source-image,.matrix-cell .text-block--source-image{margin-left:auto!important;margin-right:auto!important}
+.matrix-cell .text-block--source-image{padding:7px 10px}
+@media(max-width:520px){.text-block--source-image{padding:9px 10px}.text-block--source-image::before,.text-block--source-image::after{font-size:15px;top:-8px}}
+.example-group,.compare-grid,.mobile-matrix{grid-template-columns:minmax(0,1fr);max-width:100%;min-width:0}
+.example-word,.compare-panel,.matrix-row,.matrix-cell{max-width:100%;min-width:0}
+@media(min-width:640px){.example-group,.compare-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.matrix-cell{grid-template-columns:minmax(0,1fr)}}
+.lesson12-footer-nav{display:flex;justify-content:center;flex-wrap:wrap;gap:10px 22px;margin-bottom:20px}

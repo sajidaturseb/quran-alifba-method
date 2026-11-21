@@ -1,0 +1,64 @@
+.large-ar,.sample-ar{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;direction:rtl;unicode-bidi:isolate}
+.large-ar{font-size:clamp(34px,7vw,46px);line-height:1.65;white-space:normal}
+.sample-ar{font-size:clamp(38px,8vw,52px);line-height:1.7;text-align:center;color:#0b5660;margin-top:14px;word-break:normal;overflow-wrap:normal;overflow-x:auto}
+.lesson-card p{font-size:clamp(20px,4.6vw,24px);line-height:1.55}
+.card-title-ar{display:block;font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(33px,6vw,42px);line-height:1.6;margin-top:5px}
+.rank-grid{display:grid;gap:15px;margin:24px 0}
+.rank-card{display:flex;flex-direction:column;gap:7px;padding:23px;border:1px solid #d8dfd6;border-radius:20px;background:#e9f2ed}
+.rank-card:nth-child(even){background:#fff2d8}
+.rank-card b{font-family:var(--serif);font-size:clamp(26px,5.5vw,33px);color:#083f47}
+.rank-card span:not(.large-ar){font-size:19px;color:#714c2c}
+.rank-card p{font-size:20px;line-height:1.5;margin:0}
+.lesson-pair .lesson-card{border-top:5px solid #be9559}
+.lesson-pair .lesson-card.mist{border-top-color:#258275}
+.lesson-pair .lesson-card.violet{border-top-color:#9a76af}
+.lesson-pair .lesson-card .sample-ar{text-align:center;padding:17px 6px 4px;border-top:1px solid #d5ddd4}
+.rank-card{border-top:5px solid #228477;box-shadow:0 8px 24px #163e3b14}
+.rank-card:nth-child(2){border-top-color:#bf8b3e}
+.rank-card:nth-child(3){border-top-color:#9778ac}
+.rank-card:nth-child(4){border-top-color:#b46d6a}
+.rank-card .large-ar{font-size:clamp(38px,7vw,49px);text-align:center;color:#0c5960}
+.target-ar{color:#9d3d47;text-decoration:underline;text-decoration-color:#bc5c5d;text-decoration-thickness:4px;text-underline-offset:10px}
+.mim-merge{margin:32px 0;padding:25px;border:1px solid #c6d9d4;border-radius:24px;background:linear-gradient(140deg,#e4f0eb,#fff4da 85%);box-shadow:0 12px 28px #19453c1a}
+.mim-merge__heading h3{font-family:var(--serif);font-size:clamp(30px,6vw,40px);line-height:1.18;margin:0}
+.mim-merge__heading span{display:block;font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(33px,6vw,43px);line-height:1.6;color:#0d5b61}
+.mim-merge>p{font-size:clamp(20px,4.6vw,24px);line-height:1.5}
+.mim-merge__verse{margin:24px 0;padding:24px 10px;border-radius:17px;background:#fffefa;text-align:center;font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(42px,8vw,58px);line-height:1.8;word-break:normal}
+.mim-merge__formula{display:flex;align-items:center;justify-content:center;gap:clamp(8px,2.5vw,22px);padding:14px;border-radius:15px;background:#0b4a51;color:#fff4d9}
+.mim-merge__formula b{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(40px,8vw,58px);line-height:1.5}
+.mim-merge__formula span{font-size:31px}
+.mim-merge__formula .mim-merge__result{color:#f4d491;text-decoration:underline;text-underline-offset:9px}
+.mim-merge__foot{margin-bottom:0}
+.degree-grid{display:grid;gap:24px;margin:26px 0 43px}
+.degree-example{overflow:hidden;border:1px solid #c6dbd4;border-radius:24px;background:#fffefa;box-shadow:0 12px 26px #123d3b18}
+.degree-example:nth-child(2){border-color:#e4d09e;background:#fffaf0}
+.degree-example:nth-child(3){border-color:#d9cbe3;background:#fcf9ff}
+.degree-example:nth-child(4){border-color:#d8ded1;background:#f7faf6}
+.degree-example__eyebrow{display:flex;align-items:center;gap:14px;padding:16px 20px;background:#0d555b;color:#fff}
+.degree-example:nth-child(2) .degree-example__eyebrow{background:#855d28}
+.degree-example:nth-child(3) .degree-example__eyebrow{background:#6f567f}
+.degree-example:nth-child(4) .degree-example__eyebrow{background:#476d60}
+.degree-example__eyebrow span{font-size:14px;font-weight:800;letter-spacing:.12em;color:#f5d58e}
+.degree-example__eyebrow b{font-size:19px}
+.degree-example__sample{padding:26px 14px 19px;text-align:center;font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(52px,10vw,73px);line-height:1.75;word-break:normal;overflow-x:auto}
+.degree-example__focus{display:flex;align-items:center;gap:18px;margin:0 20px;padding:13px 0;border-top:1px solid #d6ded9;border-bottom:1px solid #d6ded9}
+.degree-example__focus span{flex:0 0 auto;font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(43px,8vw,55px);line-height:1.4;color:#9d3d47;text-decoration:underline;text-underline-offset:7px}
+.degree-example__focus p{font-size:clamp(19px,4.4vw,23px);line-height:1.4;margin:0}
+.degree-example__answer{display:grid;gap:2px;padding:19px 22px 24px}
+.degree-example__answer strong{font-family:var(--serif);font-size:clamp(27px,5vw,34px);line-height:1.2}
+.degree-example__answer span{font-size:19px;color:#6f5432}
+.degree-example__answer b{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(32px,6.5vw,43px);line-height:1.55;color:#0e5b60}
+.degree-example__answer p{font-size:20px;margin:2px 0 0}
+.degree-outcome{margin:30px 0;border-radius:25px;background:#0a444d;color:#fff9ec;padding:26px 20px}
+.degree-outcome h3{font-family:var(--serif);font-size:clamp(29px,6vw,39px);line-height:1.2;margin:0 0 20px}
+.degree-outcome__list{display:grid;gap:12px}
+.degree-outcome__list article{display:grid;grid-template-columns:36px 1fr;gap:12px;padding:16px;border:1px solid #8cb2aa;border-radius:17px;background:#fffefa;color:#183d3f}
+.degree-outcome__number{font-weight:800;color:#9a6734}
+.degree-outcome__list article div{display:grid;gap:1px}
+.degree-outcome__list p{font-size:18px;line-height:1.4;margin:0}
+.degree-outcome__list strong{font-family:var(--serif);font-size:24px}
+.degree-outcome__list b{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:32px;line-height:1.4;color:#0b5960}
+.degree-outcome__list small{font-size:17px;color:#765d3c}
+.degree-outcome__arabic{grid-column:2;font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(33px,6vw,43px);line-height:1.55;color:#0b5960}
+.chapter-content>.lesson-card,.chapter-content>.note,.chapter-content>.lesson-pair{margin:20px 0}
+@media(min-width:700px){.rank-grid,.degree-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}

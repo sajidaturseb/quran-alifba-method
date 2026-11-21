@@ -1,0 +1,41 @@
+#lesson-title .title-ar{white-space:normal;font-size:clamp(35px,7vw,49px)}
+.madd-content{display:grid;gap:24px;padding-top:8px;padding-bottom:12px}
+.madd-grid{display:grid;gap:18px}
+.madd-panel,.madd-feature,.madd-statement,.madd-map-row,.madd-summary{border:1px solid #d7ddd5;border-radius:25px;padding:clamp(22px,5vw,32px);box-shadow:0 7px 22px rgba(16,56,60,.045);min-width:0}
+.madd-panel--sea{background:#e9f3ef;border-color:#c6ddd5}
+.madd-panel--sand{background:#fff2d9;border-color:#ead9b3}
+.madd-panel--lilac{background:#f0eafa;border-color:#dcd1eb}
+.madd-panel--cream{background:#fffaf0;border-color:#eadfcb}
+.madd-panel h3,.madd-feature h3,.madd-statement h3,.madd-map-row h3,.madd-summary h3{font-family:Georgia,'Times New Roman',serif;font-size:clamp(26px,5.4vw,36px);line-height:1.19;margin:0 0 15px;color:#133f43}
+.madd-panel p,.madd-feature p,.madd-statement p,.madd-map-row p,.madd-summary p{font-size:clamp(20px,4.6vw,24px);line-height:1.5;margin:16px 0 0;color:#204b4e}
+.madd-term{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(29px,6vw,40px);line-height:1.5;text-align:right;color:#386b67;margin:8px 0 10px;overflow-wrap:normal;word-break:normal;overflow-x:auto}
+.madd-arabic{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(48px,10vw,72px);line-height:1.5;text-align:center;color:#064c54;margin:14px 0;white-space:normal;word-break:normal;overflow-wrap:normal}
+.madd-letter{font-family:'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(58px,13vw,88px);line-height:1.1;text-align:center;color:#9d6b38}
+.madd-measure{display:block;width:max-content;max-width:100%;font-size:clamp(19px,4.2vw,23px);line-height:1.3;color:#063e4b;background:#fff;padding:11px 17px;border-radius:999px;margin-top:21px;font-weight:750}
+.madd-feature{background:#fff8e8;text-align:center}
+.madd-feature .madd-measure{margin-left:auto;margin-right:auto;background:#dcece5}
+.madd-feature--dark{background:linear-gradient(135deg,#0c5056,#183e4d);border-color:#0c5056;color:#fff}
+.madd-feature--dark h3,.madd-feature--dark .madd-arabic{color:#fff}
+.madd-feature--dark .madd-arabic--hero{font-size:clamp(68px,15vw,110px);line-height:1.6}
+.madd-syllables{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}
+.madd-syllables>div{border:1px solid rgba(255,255,255,.3);border-radius:18px;background:rgba(255,255,255,.11);padding:8px 6px 13px;min-width:0}
+.madd-syllables .madd-arabic{font-size:clamp(43px,9vw,64px);line-height:1.3;color:#ffdc91;margin:6px 0}
+.madd-syllables span{display:block;font-size:clamp(16px,3.6vw,21px);line-height:1.25;color:#fff}
+.madd-statement .madd-arabic{font-size:clamp(32px,7vw,48px)}
+.madd-map{display:grid;gap:14px}
+.madd-map-row{display:flex;flex-direction:column;align-items:flex-start}
+.madd-map-cause{font-size:clamp(17px,4vw,22px);color:#7c5638;font-weight:800;margin-bottom:8px}
+.madd-map-row h3{font-size:clamp(25px,5vw,32px);margin-bottom:5px}
+.madd-map-row .madd-term{font-size:clamp(26px,5.5vw,38px);width:100%}
+.madd-map-row .madd-arabic{font-size:clamp(43px,8vw,60px);text-align:center;margin:8px 0;width:100%}
+.madd-map-row .madd-measure{margin:8px 0 0;white-space:normal}
+.madd-grid--cases .madd-panel{border-left:8px solid #bb965b}
+.madd-grid--cases .madd-arabic{font-size:clamp(47px,9.2vw,70px);text-align:center}
+.madd-summary{background:#fffdf8;border-color:#c9dbd5}
+.madd-summary h3{margin-bottom:20px}
+.madd-summary-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:8px 18px;border-top:1px solid #dce4de;padding:14px 0;align-items:center}
+.madd-summary-row .madd-arabic{font-size:clamp(35px,7vw,50px);text-align:left;margin:0;grid-row:span 2}
+.madd-summary-row p{font-size:clamp(18px,4.1vw,22px);margin:0}
+.madd-summary-row strong{font-size:clamp(18px,4.1vw,22px);color:#94622c}
+@media(min-width:760px){.madd-grid--pair,.madd-grid--cases{grid-template-columns:repeat(2,minmax(0,1fr))}.madd-grid--triplet{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:520px){.madd-syllables{grid-template-columns:1fr}.madd-syllables>div{display:grid;grid-template-columns:92px 1fr;align-items:center;text-align:left}.madd-syllables .madd-arabic{margin:0}.madd-summary-row{grid-template-columns:1fr}.madd-summary-row .madd-arabic{grid-row:auto}.madd-grid--cases .madd-panel .madd-arabic{font-size:clamp(39px,8.7vw,55px)}}
