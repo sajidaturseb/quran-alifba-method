@@ -1,0 +1,103 @@
+.l22-history{display:grid;gap:14px;margin:20px 0}.l22-history>div{border:1px solid #d8d8c9;border-radius:18px;padding:18px;background:#fffdf8}.l22-history>div:nth-child(2){background:#e8f2ec}.l22-history>div:nth-child(3){background:#fff1d8}.l22-history b{display:block;font-family:var(--serif);font-size:clamp(24px,5vw,31px);color:#164b48;margin-bottom:8px}.l22-history p{margin:0;font-size:clamp(19px,4.3vw,23px);line-height:1.48}.l22-glyphs{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;margin:18px 0}.l22-glyphs span{display:grid;place-items:center;min-width:82px;min-height:82px;border:1px solid #cfddd1;border-radius:17px;background:#fffdf8;font-family:UthmanicHafs,'Traditional Arabic',serif;font-size:58px;color:#0c5657}.l22-glyphs em{font-style:normal;font-size:35px;color:#ac8543}.l22-steps{display:grid;gap:11px;margin:16px 0}.l22-step{display:grid;grid-template-columns:44px minmax(0,1fr);gap:13px;align-items:start;background:#fffdf8;border:1px solid #d5dfd3;border-radius:15px;padding:14px}.l22-step .symbol{width:42px;height:42px;display:grid;place-items:center;border-radius:12px;background:#0b625a;color:white;font-size:22px;font-weight:800}.l22-step p{margin:0;font-size:clamp(19px,4.3vw,23px);line-height:1.42}.l22-compare{display:grid;gap:14px;margin:18px 0}.l22-compare>div{padding:18px;border:1px solid #cfded2;border-radius:17px;background:#edf5f0}.l22-compare>div:nth-child(2){background:#fff2df;border-color:#e4d3af}.l22-compare h3{margin:0 0 8px}.l22-compare p{margin:9px 0;font-size:clamp(19px,4.2vw,23px)}.l22-compare .l13-ar{font-size:clamp(44px,9vw,65px)}.l22-rule{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:15px 18px;border-radius:15px;border:1px solid #d5ded2;background:#fffdf8;margin:10px 0}.l22-rule b{font-size:clamp(20px,4.5vw,25px);color:#164b48}.l22-rule strong{font-size:clamp(21px,4.8vw,27px);color:#8c3f54}.l22-gallery{display:grid;gap:14px;margin:18px 0}.l22-gallery a{display:block;background:#fffdf8;border:1px solid #d3ddcf;border-radius:18px;overflow:hidden;text-align:center;text-decoration:none;color:#164b48}.l22-gallery img{display:block;width:100%;height:auto}.l22-gallery span{display:block;padding:11px 14px;font-size:18px;font-weight:800}.l22-gallery-note{font-size:18px!important;color:#5a6260}.l22-tag{display:inline-block;padding:5px 13px;border-radius:999px;background:#e7f2ea;color:#0d5e55;font-weight:800;font-size:18px;margin:0 0 9px}.l22-examples{display:grid;gap:12px;margin:18px 0}.l22-examples>div{border:1px solid #d3ddce;border-radius:16px;background:#fffdf8;padding:14px;text-align:center}.l22-examples>div:nth-child(even){background:#fff2df}.l22-examples .l13-ar{font-size:clamp(38px,7.7vw,55px)}.l22-examples p{font-size:18px;margin:2px 0 0}.l22-plain{font-size:clamp(19px,4.2vw,23px);line-height:1.48}.l22-note{padding:17px 19px;border-left:5px solid #a98142;background:#fff9eb;border-radius:0 14px 14px 0;font-size:clamp(19px,4.2vw,23px);line-height:1.48;margin:18px 0}.l22-note strong{color:#76542b}.l22-small-ar{font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic',serif;font-size:1.5em;white-space:nowrap;unicode-bidi:isolate}.l22-img-card img{max-width:720px;margin:auto}@media(min-width:660px){.l22-history{grid-template-columns:repeat(3,minmax(0,1fr))}.l22-compare,.l22-examples{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.l22-glyphs span{min-width:65px;min-height:65px;font-size:46px}.l22-img-card img{width:100%;max-width:100%}}
+
+/* Уровни заголовков: раздел → карточка → подпись внутри карточки. */
+#l22-main .l13-section-title{border-top-color:#9ac4b2}
+#l22-main .l13-section-title h2{color:#0e655c;font-size:clamp(30px,5.6vw,42px)}
+#l22-main .l13-section-title .l13-number{width:49px;height:49px;border-radius:13px;background:#eee1ce;color:#0e655c;border:1px solid #d7c2a7;font:800 25px/1 Arial,'Segoe UI',sans-serif}
+#l22-main .l13-card h3{color:#6a5d78}
+#l22-main .l22-history b,
+#l22-main .l22-rule b,
+#l22-main .l22-tag,
+#l22-main .l22-examples p{color:#8a5c29}
+
+/* В примерах выделены сами знаки, а подписи показывают, что сравниваем. */
+#l22-main .l22-example--start{--l22-accent:#963957;--l22-pale:#f9e8ee}
+#l22-main .l22-example--middle{--l22-accent:#8a5c29;--l22-pale:#fff0d7}
+#l22-main .l22-example--end{--l22-accent:#ae354b;--l22-pale:#fbe9ed}
+#l22-main .l22-reading--start{--l22-accent:#0b6c58;--l22-pale:#e5f4ed}
+#l22-main .l22-reading--continue{--l22-accent:#963957;--l22-pale:#f9e8ee}
+#l22-main .l22-location-examples .l13-ar,
+#l22-main .l22-reading-examples .l13-ar{line-height:1.9}
+#l22-main .l22-hamza{color:var(--l22-accent);text-decoration:underline;text-decoration-color:var(--l22-accent);text-decoration-thickness:.065em;text-underline-offset:.16em}
+#l22-main .l22-position{display:inline-block;margin:8px 0 0;padding:7px 14px;border-radius:999px;border:1px solid var(--l22-accent);background:var(--l22-pale);color:var(--l22-accent);font-size:clamp(18px,4.2vw,21px);font-weight:800;line-height:1.25}
+
+/* Справочные листы показываем прямо в теме в ширину экрана. */
+#l22-main .l22-gallery .l22-img-card{display:block;overflow:hidden;border:1px solid #d3ddcf;border-radius:18px;background:#fffdf8}
+#l22-main .l22-gallery .l22-img-card img{display:block;width:100%;max-width:720px;height:auto;margin:0 auto}
+
+/* Название правила не разрывается на «аль-» и «васл». */
+#l22-main .l22-nowrap{white-space:nowrap;font-size:clamp(24px,5vw,44px)}
+
+/* Семь имён здесь даны как короткая подборка; пояснения остаются в справочном листе. */
+#l22-main .l22-name-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0}
+#l22-main .l22-name{display:grid;place-items:center;min-width:0;min-height:108px;padding:10px 5px;border:1px solid #cbded4;border-bottom:3px solid #277a66;border-radius:16px;background:#eaf4ee;text-align:center}
+#l22-main .l22-name:nth-child(3n+2){border-color:#e4d4b2;border-bottom-color:#ad7d38;background:#fff2dd}
+#l22-main .l22-name:nth-child(3n){border-color:#dacde0;border-bottom-color:#86608d;background:#f4edf6}
+#l22-main .l22-name:last-child{grid-column:1/-1}
+#l22-main .l22-name .l13-ar{font-size:clamp(38px,9vw,58px);font-weight:700;line-height:1.65;white-space:nowrap}
+
+/* В обеих карточках три коротких пункта: номер и галочка всегда одного размера. */
+#l22-main .l22-key-points{counter-reset:l22-key;display:grid;gap:10px;list-style:none;padding:0;margin:16px 0 0}
+#l22-main .l22-key-points li{counter-increment:l22-key;display:grid;grid-template-columns:25px 36px minmax(0,1fr);gap:8px;align-items:center;min-width:0;padding:9px 10px;border:1px solid #cfded2;border-radius:13px;background:#fffdf9;font-size:clamp(19px,4.2vw,23px);line-height:1.35}
+#l22-main .l22-key-points li::before{content:counter(l22-key);color:#0e655c;font:800 21px/1 Arial,'Segoe UI',sans-serif;text-align:center}
+#l22-main .l22-key-icon{display:grid;place-items:center;width:34px;height:34px;border:1px solid #92b9aa;border-radius:10px;background:#e7f3ec;color:#0e655c;font:800 25px/1 Arial,'Segoe UI',sans-serif}
+#l22-main .l22-hamza-compare>div:nth-child(2) .l22-key-points li{border-color:#e3d3b5}
+#l22-main .l22-hamza-compare>div:nth-child(2) .l22-key-points li::before{color:#94642d}
+#l22-main .l22-hamza-compare>div:nth-child(2) .l22-key-icon{border-color:#d9bd8d;background:#fff1db;color:#94642d}
+
+/* Справочные карты повторяют порядок исходных листов без декоративной рамы. */
+#l22-main .l22-refsheet{max-width:720px;margin:0 auto;padding:clamp(17px,4vw,30px);border:1px solid #cbd9cf;border-top:5px solid #0e655c;border-radius:20px;background:#fffdf8;box-shadow:0 12px 30px rgba(15,66,60,.06);color:#173c3e}
+#l22-main .l22-refsheet-kicker{display:inline-block;padding:6px 12px;border-radius:8px;background:#e9f2ec;color:#0e655c;font:800 14px/1.2 Arial,'Segoe UI',sans-serif;letter-spacing:.035em}
+#l22-main .l22-refsheet h4{margin:15px 0 12px;color:#0e655c;font-family:var(--serif);font-size:clamp(30px,7vw,48px);line-height:1.1;letter-spacing:-.015em}
+#l22-main .l22-refsheet h4 span{font-size:.74em}
+#l22-main .l22-refsheet-intro{margin:0 0 20px;font-size:clamp(19px,4.2vw,23px);line-height:1.45}
+#l22-main .l22-refsheet-intro strong{color:#0e655c}
+#l22-main .l22-refsheet-prompt{margin:0 0 11px;padding:8px 13px;border-left:4px solid #80688a;border-radius:0 9px 9px 0;background:#f3eef5;color:#6a5d78;font:800 clamp(20px,4.5vw,25px)/1.2 Arial,'Segoe UI',sans-serif}
+#l22-main .l22-refrow{display:grid;grid-template-columns:46px minmax(0,1fr);column-gap:10px;align-items:center;margin:9px 0;padding:12px;border:1px solid #d4ded2;border-radius:15px;background:#fffefa}
+#l22-main .l22-refrow:nth-of-type(even){background:#f3f8f4}
+#l22-main .l22-refnum{grid-column:1;grid-row:1 / span 3;display:grid;place-items:center;width:42px;height:42px;border-radius:10px;background:#0e655c;color:#fff;font:800 22px/1 Arial,'Segoe UI',sans-serif}
+#l22-main .l22-refar{grid-column:2;grid-row:1;min-width:0;color:#0b5c57;font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic',serif;font-size:clamp(38px,9.4vw,59px);font-weight:700;line-height:1.55;text-align:center;overflow-wrap:anywhere}
+#l22-main .l22-refar small{display:block;font-size:.52em;font-weight:400;line-height:1.3;white-space:normal}
+#l22-main .l22-refread{grid-column:2;grid-row:2;color:#355050;font-size:clamp(18px,4vw,22px);line-height:1.3}
+#l22-main .l22-refread strong{color:#0e655c;font-size:1.12em}
+#l22-main .l22-refsource,#l22-main .l22-refmeaning{grid-column:2;grid-row:3;margin-top:5px;color:#6b5874;font-size:clamp(17px,3.8vw,20px);line-height:1.3}
+#l22-main .l22-refsheet-note{margin:11px 0 11px 56px;padding:12px 14px;border-left:4px solid #947ba0;border-radius:0 10px 10px 0;background:#f5f0f6;color:#4c4453;font-size:clamp(18px,4vw,21px);line-height:1.4}
+#l22-main .l22-refhead{display:none}
+@media(min-width:700px){#l22-main .l22-refrow{grid-template-columns:48px minmax(0,1.35fr) minmax(0,.9fr) minmax(0,1fr);gap:16px;padding:14px 17px}#l22-main .l22-refnum,#l22-main .l22-refar,#l22-main .l22-refread,#l22-main .l22-refsource,#l22-main .l22-refmeaning{grid-row:1;margin:0}#l22-main .l22-refnum{grid-column:1}#l22-main .l22-refar{grid-column:2}#l22-main .l22-refread{grid-column:3}#l22-main .l22-refsource,#l22-main .l22-refmeaning{grid-column:4}#l22-main .l22-refhead{display:grid;grid-template-columns:48px minmax(0,1.35fr) minmax(0,.9fr) minmax(0,1fr);gap:16px;padding:0 17px;color:#6a5d78;font-size:16px;font-weight:700}#l22-main .l22-refsheet-note{margin-left:64px}}
+
+/* Лаконичная версия: одна цельная таблица и ровная ось заголовков. */
+#l22-main .l22-refsheet{padding:clamp(15px,3.5vw,25px);border:1px solid #b8d1d0;border-radius:16px;background:#fffefb;box-shadow:0 8px 20px rgba(15,66,60,.045)}
+#l22-main .l22-refsheet-kicker{display:block;width:max-content;max-width:100%;margin:0 auto;padding:0;background:none;color:#5d6873;text-align:center;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+#l22-main .l22-refsheet-kicker::before{content:"";display:inline-block;width:28px;height:3px;margin:0 10px 4px 0;border-radius:2px;background:#9d8aab}
+#l22-main .l22-refsheet h4{margin:15px 0 18px;color:#075d61;text-align:center;font-family:Arial,'Segoe UI',sans-serif;font-size:clamp(29px,6.8vw,45px);font-weight:800;line-height:1.14;letter-spacing:-.025em}
+#l22-main .l22-refsheet h4 span{font-size:.65em;letter-spacing:0}
+#l22-main .l22-refsheet-intro{margin:0 0 21px;padding:14px 16px;border-left:4px solid #5daeb0;border-radius:10px;background:#eaf4f3;font-size:clamp(18px,4vw,21px);line-height:1.43}
+#l22-main .l22-refsheet-intro strong{color:#075d61}
+#l22-main .l22-refsheet-prompt{display:flex;align-items:center;gap:15px;margin:0 0 12px;padding:0;border:0;border-radius:0;background:none;color:#173c3e;font-size:clamp(24px,5vw,31px);font-weight:800}
+#l22-main .l22-refsheet-prompt::after{content:"";height:1px;flex:1;background:#c7d9d9}
+#l22-main .l22-reftable{overflow:hidden;border:1px solid #bfd1d1;border-radius:13px}
+#l22-main .l22-refhead{display:none}
+#l22-main .l22-refrow{margin:0;padding:8px 9px;column-gap:7px;row-gap:0;border:0;border-bottom:1px solid #d8e3e4;border-radius:0;background:#fff;box-shadow:none}
+#l22-main .l22-refrow:nth-of-type(odd){background:#f0f7f7}
+#l22-main .l22-refrow:last-child{border-bottom:0}
+#l22-main .l22-refnum{width:auto;height:auto;background:none;color:#48676b;font-size:20px;font-weight:600}
+#l22-main .l22-refar{font-size:clamp(38px,9.5vw,55px);line-height:1.45}
+#l22-main .l22-refread{color:#075d61;font-size:clamp(17px,4.2vw,22px);font-weight:700;text-align:center}
+#l22-main .l22-refread strong{font-size:1.05em}
+#l22-main .l22-refsource,#l22-main .l22-refmeaning{color:#42565c;font-size:clamp(16px,3.9vw,20px);text-align:center}
+#l22-main .l22-refsheet-note{margin:0;padding:12px 15px;border:0;border-bottom:1px solid #d8e3e4;border-radius:0;background:#f2ecf5;color:#5d4d69;font-size:clamp(17px,4vw,20px);text-align:center}
+#l22-main .l22-refrow--verbs{grid-template-columns:28px minmax(0,1.2fr) minmax(0,.8fr)}
+#l22-main .l22-refrow--verbs .l22-refnum{grid-column:1;grid-row:1 / span 2}
+#l22-main .l22-refrow--verbs .l22-refar{grid-column:2;grid-row:1}
+#l22-main .l22-refrow--verbs .l22-refread{grid-column:3;grid-row:1}
+#l22-main .l22-refrow--verbs .l22-refsource{grid-column:2 / span 2;grid-row:2;margin:0 0 4px}
+#l22-main .l22-refrow--nouns{grid-template-columns:28px minmax(0,1fr) minmax(0,1fr)}
+#l22-main .l22-refrow--nouns .l22-refnum{grid-column:1;grid-row:1 / span 2}
+#l22-main .l22-refrow--nouns .l22-refar{grid-column:2 / span 2;grid-row:1}
+#l22-main .l22-refrow--nouns .l22-refread{grid-column:2;grid-row:2}
+#l22-main .l22-refrow--nouns .l22-refmeaning{grid-column:3;grid-row:2;margin:0}
+@media(min-width:620px){#l22-main .l22-refhead,#l22-main .l22-refrow--verbs,#l22-main .l22-refrow--nouns{display:grid;grid-template-columns:45px minmax(0,1.2fr) minmax(0,.95fr) minmax(0,1fr);gap:10px;align-items:center}#l22-main .l22-refhead{padding:10px 12px;background:#075d61;color:#fff;text-align:center;font-size:16px;font-weight:700}#l22-main .l22-refrow{padding:9px 12px}#l22-main .l22-refrow--verbs .l22-refnum,#l22-main .l22-refrow--nouns .l22-refnum{grid-column:1;grid-row:1}#l22-main .l22-refrow--verbs .l22-refar,#l22-main .l22-refrow--nouns .l22-refar{grid-column:2;grid-row:1}#l22-main .l22-refrow--verbs .l22-refread,#l22-main .l22-refrow--nouns .l22-refread{grid-column:3;grid-row:1}#l22-main .l22-refrow--verbs .l22-refsource,#l22-main .l22-refrow--nouns .l22-refmeaning{grid-column:4;grid-row:1;margin:0}#l22-main .l22-refsource{text-align:left}}
+
+/* Во всей теме арабские примеры имеют то же плотное начертание, что семь имён. */
+#l22-main [lang="ar"],#l22-hero [lang="ar"]{font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-weight:700}
+#l22-main .l22-refar small{font-weight:700}

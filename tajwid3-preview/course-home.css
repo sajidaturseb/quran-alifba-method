@@ -12,5 +12,8 @@
 .course-card h3{font-family:var(--serif);font-size:clamp(29px,5.5vw,41px);line-height:1.13;margin:11px 0 12px}
 .course-card p{font-size:19px;line-height:1.48;margin:0 0 16px;color:#465e5d}
 .course-card strong{display:inline-block;color:#0d5b60;font-size:18px}
+.course-card--planned{border-style:dashed}
+.course-card--planned strong{color:#786745}
 .course-card:hover,.course-card:focus-visible{border-color:#a68952;box-shadow:0 9px 24px #173d3720;outline:2px solid #a68952;outline-offset:2px}
+.course-card--planned:hover{border-color:#d9d7cc;box-shadow:0 6px 19px #173d370d;outline:none}
 @media(min-width:680px){.course-list{grid-template-columns:repeat(2,minmax(0,1fr))}.course-card{min-height:235px}}

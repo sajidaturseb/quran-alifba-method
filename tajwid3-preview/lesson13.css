@@ -1,0 +1,86 @@
+@font-face{font-family:UthmanicHafs;src:url('https://verses.quran.foundation/fonts/quran/hafs/uthmanic_hafs/UthmanicHafs1Ver18.woff2') format('woff2');font-display:swap}
+.l13-cover{background:linear-gradient(160deg,#0b4d4c,#0a4353 78%);color:#fff;padding-bottom:38px}
+.l13-cover img{display:block;width:100%;max-width:920px;margin:auto}
+.l13-hero{max-width:920px;margin:auto;padding:26px 20px 0}
+.l13-languages{display:flex;gap:11px;margin-bottom:27px}
+.l13-languages a{flex:1;min-height:54px;display:grid;place-items:center;text-decoration:none;color:#fffaf0;border:1px solid #dcc999;border-radius:14px;font-weight:800;font-size:clamp(18px,4.3vw,22px)}
+.l13-languages a[aria-current=page]{background:#f1dfa9;color:#143e40;border-color:#f1dfa9;box-shadow:inset 0 0 0 2px #fff9e8}
+.l13-eyebrow{color:#f0d6a1;font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:15px}
+.l13-hero h1{font-family:var(--serif);font-size:clamp(38px,7.6vw,63px);line-height:1.08;margin:13px 0 17px;text-wrap:balance}
+.l13-hero .l13-lesson-name{font-size:clamp(33px,7vw,58px);line-height:1.12;margin-bottom:0}
+.l13-title-group{display:block;margin-bottom:21px}
+.l13-hero-ar{display:block;margin-top:4px;font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(25px,5.5vw,34px);font-weight:700;font-synthesis:weight;line-height:1.55;color:#f0d6a1;text-align:left}
+.l13-hero [lang="ar"],.l13-main [lang="ar"]{font-weight:700;font-synthesis:weight}
+.l13-hero p{font-size:clamp(20px,4.5vw,25px);line-height:1.42;margin:0;color:#f2e8d7}
+.l13-nav{max-width:920px;margin:24px auto 0;padding:0 18px;display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.l13-nav::-webkit-scrollbar{display:none}
+.l13-nav a{flex:0 0 100%;scroll-snap-align:start;min-height:68px;display:grid;place-items:center;padding:12px 16px;background:#fffdf8;color:#14464a;border:1px solid #d6dccc;border-radius:13px;text-align:center;text-decoration:none;font-size:clamp(20px,4.3vw,24px);font-weight:800;line-height:1.2}
+.l13-nav a:nth-child(2),.l13-nav a:nth-child(4){background:#e8f2eb}.l13-nav a:nth-child(3){background:#fff4dd}
+.l13-nav-controls{max-width:920px;margin:0 auto 24px;padding:7px 18px 0;display:flex;align-items:center;justify-content:space-between;color:#72582f;font-weight:800;font-size:18px}
+.l13-nav-controls button{width:54px;height:46px;border:1px solid #bcae89;border-radius:12px;background:#fff9e9;color:#0b5754;font-size:27px;cursor:pointer}
+.l13-nav-controls button:disabled{opacity:.35;cursor:default}
+.l13-main{max-width:920px;margin:auto;padding:0 18px 75px}
+.l13-section{padding:6px 0 44px;scroll-margin-top:14px}
+.l13-section-title{display:flex;align-items:center;gap:14px;border-top:3px solid #0f655b;padding-top:20px;margin:15px 0 18px}
+.l13-section-title .l13-number{display:grid;place-items:center;flex:none;width:45px;height:45px;border-radius:50%;background:#0c5b55;color:#fff;font-size:19px;font-weight:800}
+.l13-section-title h2{font-family:var(--serif);font-size:clamp(31px,6vw,45px);line-height:1.12;margin:0;color:#143e40}
+.l13-card{margin:18px 0 27px;padding:21px;border:1px solid #c7dcd2;border-radius:20px;background:#eef6f0;min-width:0}
+.l13-card--warm{background:#fff3df;border-color:#e9d5a9}.l13-card--paper{background:#fffdf8;border-color:#d7ddce}.l13-card--violet{background:#f0ebf5;border-color:#ded5e7}
+.l13-card h3{font-family:var(--serif);font-size:clamp(26px,5.4vw,35px);line-height:1.2;margin:0 0 17px;color:#16464b}
+.l13-hamza-callout{display:grid;grid-template-columns:70px minmax(0,1fr);gap:17px;align-items:center;margin:18px 0;padding:18px 20px;border:1px solid #d8d9c8;border-left:5px solid #a47b3d;border-radius:0 16px 16px 0;background:#fffdf8}
+.l13-hamza-glyph{display:grid;place-items:center;width:66px;height:66px;border-radius:50%;background:#eaf3ed;color:#0b5956;font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:51px;font-weight:700;font-synthesis:weight;line-height:1}
+.l13-hamza-callout p{margin:0}
+.l13-card-ar-title{margin:0 0 13px;color:#0c5657;font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(29px,6vw,39px);line-height:1.5;text-align:center}
+@media(max-width:520px){.l13-hamza-callout{grid-template-columns:1fr;gap:9px}.l13-hamza-glyph{width:58px;height:58px;font-size:45px}}
+.l13-card p{font-size:clamp(20px,4.4vw,24px);line-height:1.48;margin:0 0 16px}.l13-card p:last-child{margin-bottom:0}
+.l13-explain{margin:16px 0 0;padding:18px 20px;border-left:5px solid #ac8543;border-radius:0 15px 15px 0;background:#fffaf0}
+.l13-explain b{display:block;font-family:var(--serif);font-size:clamp(23px,5vw,29px);line-height:1.2;margin-bottom:8px;color:#74552b}
+.l13-explain p{font-size:clamp(19px,4.1vw,23px);line-height:1.48;margin:0 0 10px}.l13-explain p:last-child{margin-bottom:0}
+.l13-explain [lang=ar],.l13-tile p [lang=ar],.l13-card h3 [lang=ar]{font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:1.55em;line-height:1.3;unicode-bidi:isolate;white-space:nowrap}
+.l13-emphasis{font-family:var(--serif);font-weight:700;color:#0a5956}
+.l13-ar{font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(42px,8.5vw,67px);line-height:1.7;direction:rtl;text-align:center;unicode-bidi:isolate;color:#0c5657;white-space:normal;overflow-wrap:normal;word-break:normal}
+.l13-ar--small{font-size:clamp(35px,7vw,53px)}
+.l13-ar-card{background:#fffdf8;border:1px solid #d7dcca;border-radius:16px;padding:10px 14px;min-width:0}
+.l13-ar-card--rose{background:#fff5ed;border-color:#ead1bd}.l13-ar-card--rose .l13-ar{color:#8b3a53}
+.l13-chip{display:inline-block;padding:7px 17px;border-radius:999px;background:#0a625a;color:#fff;font-size:clamp(20px,4.5vw,26px);line-height:1.3;font-weight:800}
+.l13-chip--rose{background:#873953}.l13-chip--gold{background:#a87936}
+.l13-pair,.l13-triple,.l13-compare{display:grid;gap:14px;margin:17px 0}
+.l13-pair>*{min-width:0}.l13-triple>*{min-width:0}
+.l13-tile{padding:17px;border:1px solid #cbdacb;border-radius:16px;background:#fffdf8;min-width:0}
+.l13-tile--warm{background:#fff4dd;border-color:#ead8b0}.l13-tile--mist{background:#e8f2ec;border-color:#cadfcf}
+.l13-tile b{display:block;font-family:var(--serif);font-size:clamp(22px,4.7vw,29px);line-height:1.2;color:#174b48;margin-bottom:9px}
+.l13-tile p{font-size:clamp(19px,4.2vw,23px);margin:8px 0 0}
+.l13-tile .l13-ar{font-size:clamp(38px,8vw,57px)}
+.l13-examples{display:grid;gap:12px;margin:17px 0}.l13-examples .l13-ar-card{padding:11px 14px}
+.l13-divider{height:3px;background:linear-gradient(90deg,transparent,#c7a768,transparent);margin:18px 0}
+.l13-rule{display:grid;gap:8px;padding:16px 18px;background:#0d5a53;color:#fff;border-radius:17px;margin:18px 0;text-align:center}
+.l13-rule strong{font-family:var(--serif);font-size:clamp(24px,5.2vw,32px);line-height:1.2}.l13-rule span{font-size:clamp(19px,4vw,23px)}
+.l13-rule .l13-ar{color:#fff3d8}
+.l13-quiz{display:grid;gap:11px;margin-top:17px}.l13-quiz .l13-ar-card{padding:9px 13px}
+.l13-quiz details{margin-top:10px;font-size:clamp(19px,4vw,22px);line-height:1.42}.l13-quiz summary{color:#0b5e59;font-weight:800;cursor:pointer}.l13-quiz details p{margin:9px 0 0;font-size:inherit}
+.l13-final{background:linear-gradient(135deg,#e7f1e9,#fff1d6);border:1px solid #c6d9cc;border-radius:20px;padding:22px}
+.l13-final .l13-tile{background:#fffdf8}.l13-final .l13-chip{margin-top:17px}
+.l13-footer{text-align:center;background:#0b4750;padding:35px 18px;color:#fff4d8}
+.l13-footer a{color:#fff4d8;font-size:20px;font-weight:800}.l13-footer-links{display:flex;gap:12px 23px;justify-content:center;flex-wrap:wrap;margin-bottom:18px}
+.l13-card .l13-key-difference{color:#705b82;font-size:clamp(24px,5.5vw,32px);font-weight:800;line-height:1.3}
+.l13-note-steps{display:grid;gap:11px;margin-top:11px}
+.l13-explain .l13-note-steps p{display:grid;grid-template-columns:36px minmax(0,1fr);gap:12px;align-items:start;margin:0;padding:11px;border:1px solid #e0d9e8;border-radius:12px;background:#fffdfd}
+.l13-note-steps p::before{content:"✓";display:grid;place-items:center;box-sizing:border-box;width:36px;height:36px;border:2px solid #705b82;border-radius:50%;background:#f3eef7;color:#705b82;font-family:Arial,sans-serif;font-size:23px;font-weight:700;line-height:1}
+.l13-note-steps--gold p::before{border-radius:8px;border-color:#a97636;background:#fff7e8;color:#a97636}
+.l13-note-steps--hex p::before{border:0;border-radius:0;clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);background:#0d655d;color:#fff}
+.l13-note-steps--burgundy p::before{border:0;border-radius:0;clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);background:#873953;color:#fff}
+.l13-note-steps--diamond p::before{border:0;border-radius:0;clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);background:#705b82;color:#fff;font-size:20px}
+.l13-note-steps--circle-triangle p::before{content:"▲";border-radius:50%;border-color:#a97636;background:#fff7e8;color:#a97636;font-size:17px}
+.l13-note-steps--pentagon p::before{border:0;border-radius:0;clip-path:polygon(50% 0,98% 35%,80% 100%,20% 100%,2% 35%);background:#0d655d;color:#fff;font-size:20px;padding-top:4px}
+.l13-note-steps--triangle p::before{border:0;border-radius:0;clip-path:polygon(50% 2%,100% 98%,0 98%);background:#705b82;color:#fff;font-size:19px;padding-top:7px}
+.l13-note-steps--rose-square p::before{border-radius:8px;border-color:#873953;background:#f7eaf1;color:#873953}
+.l13-note-steps--hex-dot p::before{content:"";border:0;border-radius:0;clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);background:radial-gradient(circle at center,#fff 0 4px,transparent 4.5px),#873953}
+.l13-note-steps--circle-diamond p::before{content:"◆";border:0;border-radius:50%;background:#0d655d;color:#fff;font-size:16px}
+.l13-rule-compare .l13-tile{padding:20px 23px;border-left:5px solid #0d655d}
+.l13-rule-compare .l13-tile--warm{border-left-color:#ad7b38}
+.l13-rule-where{display:block;color:#6a4e75;font-size:clamp(17px,3.7vw,20px);font-weight:800;letter-spacing:.08em;line-height:1.25}
+.l13-rule-kind{display:block;margin-top:9px;color:#0d5655;font-family:var(--serif);font-size:clamp(30px,6vw,39px);line-height:1.15}
+.l13-final-compare .l13-rule-kind{font-size:clamp(27px,5.5vw,36px)}
+.l13-final-ar{display:block;margin-top:12px;color:#0d5655;font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(25px,5vw,31px);line-height:1.5;text-align:left}
+@media(min-width:640px){.l13-nav a{flex:1 1 0}.l13-nav-controls{display:none}.l13-pair,.l13-compare{grid-template-columns:repeat(2,minmax(0,1fr))}.l13-triple{grid-template-columns:repeat(3,minmax(0,1fr))}.l13-examples{grid-template-columns:repeat(2,minmax(0,1fr))}.l13-quiz{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.l13-main{padding-left:16px;padding-right:16px}.l13-card{padding:18px}.l13-tile{padding:15px}}

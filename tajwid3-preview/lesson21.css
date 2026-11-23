@@ -1,0 +1,82 @@
+.l21-grid{display:grid;gap:13px;margin:18px 0}
+.l21-opening{display:grid;grid-template-columns:70px minmax(0,1fr);gap:17px;align-items:center;margin-bottom:18px;padding:20px;border:1px solid #c8ddd2;border-left:5px solid #0e655c;border-radius:17px;background:#eaf4ee}
+.l21-opening-letter{color:#0e655c;font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:clamp(58px,12vw,82px);font-weight:700;line-height:1;text-align:center}
+.l21-opening p{margin:0;color:#123f42;font-size:clamp(21px,4.5vw,27px);line-height:1.4}
+@media(max-width:420px){.l21-opening{grid-template-columns:52px minmax(0,1fr);gap:12px;padding:16px}}
+.l21-type{background:#fffdf8;border:1px solid #d5ddd1;border-radius:16px;padding:16px}
+.l21-type:nth-child(even){background:#fff3df}
+.l21-type b{display:block;font-family:var(--serif);font-size:clamp(23px,5vw,31px);color:#164b48}
+.l21-type .l13-ar{font-size:clamp(34px,7vw,49px)}
+.l21-type p{font-size:clamp(18px,4vw,22px);margin:7px 0 0}
+.l21-contrast{display:grid;gap:14px;margin:18px 0}
+.l21-contrast>div{border-radius:16px;padding:17px;border:1px solid #d7dcca;background:#fffdf8}
+.l21-contrast>div:nth-child(even){background:#fff4dd}
+.l21-contrast b{display:block;font-family:var(--serif);font-size:clamp(23px,5vw,30px);margin-bottom:9px;color:#164b48}
+.l21-contrast p{margin:9px 0;font-size:clamp(19px,4.2vw,23px)}
+.l21-contrast .l13-ar{font-size:clamp(36px,7.4vw,54px)}
+.l21-check-list{display:grid;gap:11px;margin-top:18px}
+.l21-check-step{display:grid;grid-template-columns:41px minmax(0,1fr);gap:12px;align-items:start;padding:13px 15px;border:1px solid #d3ded4;border-radius:13px;background:#fffdf8}
+.l21-check-step>span{display:grid;place-items:center;width:39px;height:39px;border-radius:11px;background:#0e655c;color:#fff;font:800 24px/1 Arial,'Segoe UI',sans-serif}
+.l21-check-step p{margin:0;font-size:clamp(19px,4.2vw,23px);line-height:1.45}
+.l21-check-step b{color:#0e655c}
+.l21-word-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:12px}
+.l21-word-pair-item{display:flex;min-width:0;flex-direction:column;align-items:center;justify-content:center;padding:8px 5px;border:1px solid #cdded4;border-radius:11px;background:#f0f7f2;text-align:center}
+.l21-word-pair-item:nth-child(2){border-color:#e4d5b9;background:#fff4e4}
+.l21-word-pair-item>[lang="ar"]{color:#0c5657;font-size:clamp(29px,7vw,43px);line-height:1.6;white-space:nowrap}
+.l21-word-pair-item small{font:700 clamp(14px,3.3vw,18px)/1.25 Arial,'Segoe UI',sans-serif;color:#655c69}
+#l21-main .l21-classic-example{color:#8c3f54}
+.l21-summary{display:grid;gap:12px}
+.l21-summary>div{background:#fffdf8;border:1px solid #d1dbd1;border-radius:14px;padding:16px}
+.l21-summary b{display:block;font-family:var(--serif);font-size:clamp(22px,4.7vw,29px);color:#164b48}
+.l21-summary p{margin:5px 0 0}
+.l13-card .l13-ar-card + .l13-ar-card{margin-top:12px}
+@media(min-width:640px){.l21-grid,.l21-contrast{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Оформление темы 21 согласовано с последующими темами курса. */
+#l21-main .l13-section-title{border-top-color:#9ac4b2}
+#l21-main .l13-section-title h2{color:#0e655c;font-size:clamp(30px,5.6vw,42px)}
+#l21-main .l13-section-title .l13-number{width:49px;height:49px;border-radius:13px;background:#eee1ce;color:#0e655c;border:1px solid #d7c2a7;font:800 25px/1 Arial,'Segoe UI',sans-serif}
+#l21-main .l13-card h3,#l21-main .l21-type b,#l21-main .l21-contrast b,#l21-main .l21-summary b{color:#6a5d78}
+#l21-main [lang="ar"],#l21-hero [lang="ar"]{font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-weight:700}
+#l21-main .l21-type{border-color:#cbded4;border-bottom:3px solid #277a66;background:#eaf4ee;text-align:center}
+#l21-main .l21-type:nth-child(even){border-color:#e4d4b2;border-bottom-color:#ad7d38;background:#fff2dd}
+#l21-main .l21-type p{color:#355050}
+#l21-main .l21-contrast>div{border-color:#cbded4;background:#f0f6f2}
+#l21-main .l21-contrast>div:nth-child(even){border-color:#e4d4b2;background:#fff5e3}
+#l21-main .l21-summary>div{border-left:4px solid #78afa0;background:#fffdf8}
+#l21-main .l21-summary>div:nth-child(even){border-left-color:#bd9d70;background:#fcf4e6}
+@media(min-width:640px){#l21-main .l21-five-types>.l21-type:last-child{grid-column:1/-1;max-width:calc(50% - 7px);width:100%;justify-self:center}}
+
+/* Короткая схема вместо длинных фраз для запоминания. */
+#l21-main .l21-scheme{display:grid;gap:14px;margin-top:16px}
+#l21-main .l21-scheme-item{min-width:0;padding:17px;border:1px solid #cbded4;border-radius:17px;background:#eff6f2}
+#l21-main .l21-scheme-item:nth-child(2){border-color:#e5d5b5;background:#fff4e2}
+#l21-main .l21-scheme-item>b{display:block;color:#6a5d78;font-family:var(--serif);font-size:clamp(23px,5vw,29px);line-height:1.2;text-align:center}
+#l21-main .l21-scheme-word{font-size:clamp(48px,11vw,71px);font-weight:700;line-height:1.6}
+#l21-main .l21-scheme-arrow{margin:-9px 0 4px;color:#a44853;font:800 30px/1 Arial,'Segoe UI',sans-serif;text-align:center}
+#l21-main .l21-scheme-point{display:grid;grid-template-columns:58px minmax(0,1fr);gap:11px;align-items:center;margin-top:8px;padding:9px 12px;border:1px solid #e3d6d8;border-radius:11px;background:#fffdf9}
+#l21-main .l21-scheme-letter{display:grid;place-items:center;min-height:53px;color:#a44853;font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:38px;font-weight:700;line-height:1.5}
+#l21-main .l21-scheme-point p{margin:0;font-size:clamp(19px,4.2vw,22px);line-height:1.35}
+#l21-main .l21-inline-ar{font-family:UthmanicHafs,'Traditional Arabic','Noto Naskh Arabic','Amiri',serif;font-size:1.45em;font-weight:700;white-space:nowrap;unicode-bidi:isolate}
+@media(min-width:680px){#l21-main .l21-scheme{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Неотделимая Лям таъриф: определение и два хукма по презентации. */
+#l21-main .l21-fixed-card h3{text-align:center}
+#l21-main .l21-fixed-definition{display:grid;grid-template-columns:auto minmax(0,1fr);gap:15px;align-items:center;margin:18px auto 22px;padding:17px 20px;max-width:760px;border:1px solid #bdd5c7;border-radius:15px;background:#e7f2eb}
+#l21-main .l21-fixed-definition p{margin:0;font-size:clamp(22px,4.6vw,28px);line-height:1.35}
+#l21-main .l21-fixed-definition b{color:#0e655c}
+#l21-main .l21-fixed-ar{color:#0e655c;font-size:clamp(40px,8vw,55px);white-space:nowrap}
+#l21-main .l21-fixed-hukm{width:max-content;max-width:100%;margin:0 auto 16px;padding:7px 22px;border-radius:999px;background:#0e655c;color:#fff;font:800 20px/1.2 Arial,'Segoe UI',sans-serif;letter-spacing:.04em}
+#l21-main .l21-fixed-rules{display:grid;gap:15px}
+#l21-main .l21-fixed-rule{min-width:0;padding:17px;border:1px solid #cbded4;border-radius:15px;background:#eff6f2;text-align:center}
+#l21-main .l21-fixed-rule:nth-child(2){border-color:#e1d3b8;background:#fff4e4}
+#l21-main .l21-fixed-rule-ar{color:#0e655c;font-size:clamp(35px,7vw,46px)}
+#l21-main .l21-fixed-rule h4{margin:6px 0 3px;color:#6a5d78;font-family:var(--serif);font-size:clamp(25px,5.4vw,33px)}
+#l21-main .l21-fixed-sub{margin:2px 0 8px!important;color:#665b61;font-size:clamp(17px,3.8vw,20px)!important}
+#l21-main .l21-fixed-examples{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 18px;margin:13px 0}
+#l21-main .l21-fixed-examples span{color:#0e655c;font-size:clamp(36px,8vw,54px);line-height:1.6;white-space:nowrap}
+#l21-main .l21-fixed-rule p{font-size:clamp(19px,4vw,22px);line-height:1.4}
+#l21-main .l21-fixed-merge{display:flex;justify-content:center;align-items:center;gap:8px;margin:11px auto;padding:5px 15px;width:max-content;max-width:100%;border:1px solid #e3d5d8;border-radius:11px;background:#fffdf9;color:#8c3f54;font-size:clamp(27px,5.5vw,37px);font-weight:700}
+#l21-main .l21-fixed-merge [lang="ar"]{font-size:1.1em}
+@media(min-width:700px){#l21-main .l21-fixed-rules{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:440px){#l21-main .l21-fixed-definition{grid-template-columns:1fr;text-align:center}}

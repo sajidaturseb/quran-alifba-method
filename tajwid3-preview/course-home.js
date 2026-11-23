@@ -2,7 +2,7 @@ const course = {
   ru: {
     kicker:'УГЛУБЛЁННЫЙ КУРС', title:'Уроки таджвида', subtitle:'Последовательное изучение правил чтения Корана',
     listKicker:'ПРОГРАММА КУРСА', listTitle:'Темы по порядку', listDescription:'От духовных основ и науки таджвид — к правилам чтения.',
-    open:'Открыть урок', footer:'Новые уроки будут появляться здесь по мере подготовки.', top:'К началу ↑',
+    open:'Открыть урок', planned:'Тема готовится', footer:'Новые уроки будут появляться здесь по мере подготовки.', top:'К началу ↑',
     lessons:[
       ['01','Путь Корана','Духовные основы, достоинства и этикет чтения.','lesson01.html'],
       ['02','Наука таджвид','Права букв, передача чтения, ошибки и темпы.','lesson02.html'],
@@ -15,13 +15,25 @@ const course = {
       ['09','Гунна','Носовое звучание Нун и Мим; четыре степени.','lesson09.html'],
       ['10','Ра, Алиф и Лям','Тафхим и таркик; основные и особые случаи.','lesson10.html'],
       ['11','Мадд и каср','Буквы удлинения, мера и причины мадда.','lesson11.html'],
-      ['12','Три правила мадда','Мад бадаль, аль-Гивад и ас-сыля.','lesson12.html']
+      ['12','Три правила мадда','Мад бадаль, аль-Гивад и ас-сыля.','lesson12.html'],
+      ['13','Мадд муттасыль и мунфасыль','Хамза после буквы мадда: в одном слове или на границе слов.','lesson13.html'],
+      ['14','Мадд лязим','Постоянный сукун, шесть харакатов и четыре вида.','lesson14.html'],
+      ['15','Мадд гарид лис-сукун','Удлинение при остановке чтения.','lesson15.html'],
+      ['16','Мадд лин','Два вида: гарид и редкий лязим с буквой Айн.','lesson16.html'],
+      ['17','Сила видов мадда','Порядок маддов и их взаимодействие.','lesson17.html'],
+      ['18','Идгам и одинаковые буквы','Причины слияния, мутамасиляйн, ишмам и раум.','lesson18.html'],
+      ['19','Идгам мутаджанисайн','Однородные буквы и семь случаев их слияния.','lesson19.html'],
+      ['20','Близкие буквы','Лям перед Ра и Каф перед Кяф.','lesson20.html'],
+      ['21','Лям с сукуном','Пять видов Лям, изхар и идгам.','lesson21.html'],
+      ['22','Хамзат аль-катъ и хамзат аль-васл','Разделяющая и соединительная хамза.','lesson22.html'],
+      ['23','Особые случаи чтения хамзы','Сочетания хамз и варианты чтения.','lesson23.html'],
+      ['24','Набр','Пять случаев голосового акцента и исключения.','lesson24.html']
     ]
   },
   tt: {
     kicker:'ТИРӘНӘЙТЕЛГӘН КУРС', title:'Тәҗвид дәресләре', subtitle:'Коръән уку кагыйдәләрен эзлекле өйрәнү',
     listKicker:'КУРС ПРОГРАММАСЫ', listTitle:'Темалар тәртибе', listDescription:'Рухи нигезләрдән һәм тәҗвид фәненнән — уку кагыйдәләренә.',
-    open:'Дәресне ачу', footer:'Яңа дәресләр әзерләнгән саен монда өстәләчәк.', top:'Башына ↑',
+    open:'Дәресне ачу', planned:'Тема әзерләнә', footer:'Яңа дәресләр әзерләнгән саен монда өстәләчәк.', top:'Башына ↑',
     lessons:[
       ['01','Коръән юлы','Рухи нигезләр, фазыйләтләр һәм уку әдәбе.','lesson01.html'],
       ['02','Тәҗвид фәне','Хәреф хаклары, укуны тапшыру, хаталар һәм темплар.','lesson02.html'],
@@ -34,7 +46,19 @@ const course = {
       ['09','Гуннә','Нун белән Мимның борын яңгырашы; дүрт дәрәҗә.','lesson09.html'],
       ['10','Ра, Әлиф һәм Ләм','Тәфхим һәм тәркыйк; төп һәм махсус очраклар.','lesson10.html'],
       ['11','Мәдд һәм каср','Сузу хәрефләре, озынлык һәм мәдд сәбәпләре.','lesson11.html'],
-      ['12','Мәдднең өч кагыйдәсе','Мәдд бәдәл, әл-Гивад һәм әс-сыйлә.','lesson12-tt.html']
+      ['12','Мәдднең өч кагыйдәсе','Мәдд бәдәл, әл-Гивад һәм әс-сыйлә.','lesson12-tt.html'],
+      ['13','Мәдд муттасыль һәм мунфасыль','Һәмзә мәдд хәрефеннән соң: бер сүздә яки ике сүз чигендә.','lesson13-tt.html'],
+      ['14','Мәдд лязим','Даими сукун, алты хәрәкәт һәм дүрт төр.','lesson14-tt.html'],
+      ['15','Мәдд гарыз лис-сукун','Туктап укыганда сузу.','lesson15-tt.html'],
+      ['16','Мәдд лин','Ике төр: гарыз һәм Айн хәрефендәге сирәк лязим.','lesson16-tt.html'],
+      ['17','Мәдд төрләренең көче','Мәддләр тәртибе һәм үзара тәэсире.','lesson17-tt.html'],
+      ['18','Идгам һәм бердәй хәрефләр','Кушылу сәбәпләре, мүтәмәсиләйн, ишмам һәм раум.','lesson18-tt.html'],
+      ['19','Идгам мүтәҗәнисәйни','Бер мәхрәҗле хәрефләрнең кушылуындагы җиде очрак.','lesson19-tt.html'],
+      ['20','Якын хәрефләр','Ра алдындагы Ләм һәм Кәф алдындагы Каф.','lesson20-tt.html'],
+      ['21','Сәкенле Ләм','Ләмнең биш төре, изһар һәм идгам.','lesson21-tt.html'],
+      ['22','Һәмзәт әл-катъ һәм һәмзәт әл-васл','Аеручы һәм тоташтыручы һәмзә.','lesson22-tt.html'],
+      ['23','Һәмзәне укуның махсус очраклары','Һәмзәләр кушылуы һәм уку вариантлары.','lesson23-tt.html'],
+      ['24','Нәбр','Тавыш басымының биш очрагы һәм искәрмәләр.','lesson24-tt.html']
     ]
   }
 };
@@ -43,7 +67,9 @@ function renderCourse(lang) {
   document.documentElement.lang=lang;
   document.title=`Тәҗвид 3 · ${data.title}`;
   for(const [id,text] of [['course-kicker',data.kicker],['course-title',data.title],['course-subtitle',data.subtitle],['course-list-kicker',data.listKicker],['course-list-title',data.listTitle],['course-list-description',data.listDescription],['course-footer',data.footer],['top-link',data.top]]) document.getElementById(id).textContent=text;
-  document.getElementById('course-list').innerHTML=data.lessons.map(([number,title,description,url],i)=>`<a class="course-card course-card--${i%3}" href="${url}"><span class="course-card__number">${number}</span><h3>${title}</h3><p>${description}</p><strong>${data.open} <span aria-hidden="true">→</span></strong></a>`).join('');
+  document.getElementById('course-list').innerHTML=data.lessons.map(([number,title,description,url],i)=>url
+    ? `<a class="course-card course-card--${i%3}" href="${url}"><span class="course-card__number">${number}</span><h3>${title}</h3><p>${description}</p><strong>${data.open} <span aria-hidden="true">→</span></strong></a>`
+    : `<div class="course-card course-card--${i%3} course-card--planned"><span class="course-card__number">${number}</span><h3>${title}</h3><p>${description}</p><strong>${data.planned}</strong></div>`).join('');
   document.getElementById('course-list').setAttribute('aria-label',lang==='tt'?'Курс дәресләре':'Уроки курса');
   for(const code of ['ru','tt']) {
     const button=document.getElementById(`${code}-button`);
